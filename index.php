@@ -81,7 +81,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
       <script type='text/javascript' src='http://templateace.xyz/scripts/gen_validatorv31.js'></script>
 </head>
 <body>
-    <?php include_once("analyticstracking.php") ?>
     <div id='fg_membersite'>
         <div class="login">
             <h1>Login</h1>
@@ -93,6 +92,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 <input type='text' name='username' id='username' placeholder="Username" value='<?php echo $fgmembersite->SafeDisplay('username') ?>' /><br/>
         <input type='password' name='password' id='password' placeholder="Password" /><br/>
         <input type='submit' name='Submit' class="btn btn-primary btn-block btn-large" value='Submit'>
+        <input style="margin-top: 10px" type='button' onclick="window.location.href = 'https://templateace.xyz/source/reset-pwd-req.php';" class="btn btn-primary btn-block btn-large" value='Reset Password'>
 </form>
         </div>
 
