@@ -15,7 +15,7 @@ $fgmembersite->SetAdminEmail('charles.yost+templateace@telenetwork.com');
 //by itself on submitting register.php for the first time
 $fgmembersite->InitDB(/*hostname*/'localhost',
                       /*username*/'template_co2noss',
-                      /*password*/'@Jinghu12',
+                      /*password*/'-d9vhT[%,q(S',
                       /*database name*/'template_logins',
                       /*table name*/'fgusers3');
 
