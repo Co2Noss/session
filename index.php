@@ -27,7 +27,7 @@ if(isset($_POST['submitted']))
 
 		<!-- Header --><div align="center" id="login">
 			<header id="header">
-				<h1>Template Ace</h1>
+				<h1>Template Ace 2.0</h1>
 			</header>
 
 		<!-- Signup Form -->
