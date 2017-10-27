@@ -44,9 +44,9 @@ if(!$fgmembersite->CheckLogin())
 <!-- End Piwik Code -->
 	</head>
 	<body><div align="center" class="container" align="center" id="login"><br /><br /><br />
-<a href="https://templateace.xyz/nt.php" class="button">Official Note Template</a>
-     <a href="https://templateace.xyz/final.php" class="button">Final Incident</a>
-     <a href="https://templateace.xyz/mm.php" class="button">Mentor Machine 2.0</a>
+<a href="notetemplate" class="button">Official Note Template</a>
+     <a href="finalincident" class="button">Final Incident</a>
+     <a href="mentormachine" class="button">Mentor Machine 2.0</a>
     <a href="https://templateace.xyz/history/home/" class="button">Note Template; A History [Blog]</a>
 </div>
 	<!-- Scripts -->

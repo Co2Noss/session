@@ -5,7 +5,7 @@ if(isset($_POST['submitted']))
 {
    if($fgmembersite->Login())
    {
-        $fgmembersite->RedirectToURL("brie.php");
+        $fgmembersite->RedirectToURL("/navigator");
    }
 }
 
@@ -52,6 +52,8 @@ if(isset($_POST['submitted']))
                     </div>
 				<ul class="copyright">
                     <li>&copy; 2017 Template Ace</li>
+                    <li><a target="_blank" href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a target="_blank" href="terms.html">Terms of Service</a></li>
 				</ul>
 			</div>
         
