@@ -18,8 +18,8 @@ http://www.html-form-guide.com/php-form/php-registration-form.html
 http://www.html-form-guide.com/php-form/php-login-form.html
 
 */
-require_once("class.phpmailer.php");
-require_once("formvalidator.php");
+require_once("https://shell.tni/~charles.yost/beta/include/class.phpmailer.php");
+require_once("https://shell.tni/~charles.yost/beta/include/formvalidator.php");
 
 class FGMembersite
 {

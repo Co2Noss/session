@@ -1,12 +1,3 @@
-<?PHP
-require_once("./include/membersite_config.php");
-
-if(!$fgmembersite->CheckLogin())
-{
-    $fgmembersite->RedirectToURL("index.php");
-    exit;
-}
-?>
 
 <!-- Created by Brie Yoe
   -- Contributers:
@@ -27,27 +18,11 @@ if(!$fgmembersite->CheckLogin())
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//status.templateace.xyz/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
 	</head>
 	<body><div align="center" class="container" align="center" id="login"><br /><br /><br />
-<a href="notetemplate" class="button">Official Note Template</a>
-     <a href="finalincident" class="button">Final Incident</a>
-     <a href="mentormachine" class="button">Mentor Machine 2.0</a>
-    <a href="https://templateace.xyz/history/home/" class="button">Note Template; A History [Blog]</a>
+<a href="notetemplate.php" class="button">Official Note Template</a>
+     <a href="finalincident.php" class="button">Final Incident</a>
+     <a href="mentormachine.php" class="button">Mentor Machine 2.0</a>
 </div>
 	<!-- Scripts -->
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->

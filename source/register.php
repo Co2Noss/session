@@ -1,5 +1,5 @@
 <?PHP
-require_once("./include/membersite_config.php");
+require_once("https://shell.tni/~charles.yost/beta/include/membersite_config.php");
 
 if(isset($_POST['submitted']))
 {
